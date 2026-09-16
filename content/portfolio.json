@@ -1,12 +1,12 @@
 [
   {
-    "image": "Death To An Artist.jpg",
+    "image": "Death To An Artist.jpeg",
     "title": "Death To An Artist",
     "details": "Graphite, charcoal, spraypaint \u2022 2025",
     "alt": "Artwork 01"
   },
   {
-    "image": "Our Shoes.jpg",
+    "image": "Our Shoes.jpeg",
     "title": "Our Shoes",
     "details": "Oil paint on canvas \u2022 2026",
     "alt": "Artwork 02"
@@ -18,21 +18,21 @@
     "alt": "Artwork 03"
   },
   {
-    "image": "Sucker at the End of the Butt.jpg",
+    "image": "Sucker at the End of the Butt.jpeg",
     "title": "Sucker at the End of the Butt",
     "details": "Multi-photo Collage \u2022 2026",
     "alt": "Artwork 04"
   },
   {
-    "image": "The Creation of Family.jpg",
+    "image": "The Creation of Family.jpeg",
     "title": "The Creation of Family",
     "details": "Charcoal and Graphite \u2022 2026",
     "alt": "Artwork 05"
   },
   {
-    "image": "work-06.jpg",
-    "title": "Artwork Title",
-    "details": "Medium \u2022 2026",
+    "image": "The Artist and the Muse.JPG",
+    "title": "The Artist and the Muse",
+    "details": "Watercolor, ink, charcoal \u2022 2026",
     "alt": "Artwork 06"
   }
 ]
