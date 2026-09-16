@@ -1,38 +1,63 @@
-# Hollie Hix Artist Website
+# Hollie Hix Artist Website — Easy Maintenance Version
 
-A static artist portfolio site designed for GitHub Pages.
+## The important part: `content/`
 
-## Pages
-- `index.html` — Home
-- `portfolio.html` — Artwork portfolio
-- `music.html` — Performance videos and music links
-- `about.html` — Biography and artist statement
-- `store.html` — Products and purchase links
+You can now maintain most of the site by editing only these four files:
 
-## Adding images
-Put your JPG/PNG/WebP images in `assets/images/` and update the filenames in the HTML.
+- `content/site.json` — artist name, tagline, bio, statement, location, social links
+- `content/portfolio.json` — artwork titles, descriptions, and image filenames
+- `content/music.json` — performance video URLs and titles
+- `content/products.json` — store products, prices, images, and checkout links
 
-Suggested names:
-- `hero.jpg`
-- `about.jpg`
-- `work-01.jpg` through `work-06.jpg`
-- `product-01.jpg` through `product-03.jpg`
-- `video-poster-01.jpg`, `video-poster-02.jpg`
+### Add an artwork
+1. Put the image in `assets/images/`.
+2. Open `content/portfolio.json`.
+3. Copy an existing item and change `image`, `title`, `details`, and `alt`.
 
-## Adding videos
-Put MP4 videos in `assets/videos/`, then update the `<source>` filename in `music.html`.
+Example:
+{
+  "image": "my-new-vase.jpg",
+  "title": "My New Vase",
+  "details": "Stoneware • 2026",
+  "alt": "Blue stoneware vase"
+}
 
-For YouTube/Vimeo, replace the `<video>` element with an embed iframe.
+### Add a YouTube performance
+Open `content/music.json` and add:
+{
+  "type": "youtube",
+  "url": "https://www.youtube.com/embed/YOUR_VIDEO_ID",
+  "title": "Song Title",
+  "details": "Live at Venue • 2026"
+}
 
-## Store
-This version intentionally does not process payments itself. Change each `Purchase` button's `href="#"` to your checkout/product URL from Etsy, Shopify, Square, PayPal, etc.
+For YouTube, use the video's Embed URL rather than the normal watch URL.
 
-## GitHub Pages
-1. Create a new GitHub repository.
-2. Upload all files and folders in this project.
-3. In the repository, open Settings → Pages.
-4. Choose deployment from the `main` branch and `/ (root)`.
-5. Save. GitHub will provide your site address.
+### Add a store item
+Put the product image in `assets/images/`, then add an item to `content/products.json`:
+{
+  "image": "my-piece.jpg",
+  "title": "My Piece",
+  "description": "Handmade original artwork.",
+  "price": "$125",
+  "url": "YOUR-CHECKOUT-LINK"
+}
 
-## Customizing
-Most colors, spacing, typography, and layout are controlled from the top of `style.css`.
+The `url` can point to Etsy, Shopify, Square, PayPal, or another checkout page.
+
+## GitHub update
+
+You DO NOT need to delete your existing GitHub repository.
+
+If you already created the original repository:
+1. Keep the same repository.
+2. Replace the old website files with the files from this version.
+3. Make sure the `content/` and `assets/` folders are uploaded.
+4. Commit the changes.
+5. GitHub Pages will update the existing website automatically.
+
+If you prefer, you can also create a brand-new repository, but it is not necessary.
+
+## Important note about local testing
+
+Because this site loads JSON files with JavaScript, opening `index.html` directly from your computer may not load the content correctly in some browsers. It will work normally on GitHub Pages. For local testing, use a simple local server such as VS Code's Live Server extension.

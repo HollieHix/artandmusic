@@ -1,0 +1,23 @@
+[
+  {
+    "image": "product-01.jpg",
+    "title": "Original Artwork",
+    "description": "Short product description.",
+    "price": "$000",
+    "url": "#"
+  },
+  {
+    "image": "product-02.jpg",
+    "title": "Handmade Piece",
+    "description": "Short product description.",
+    "price": "$000",
+    "url": "#"
+  },
+  {
+    "image": "product-03.jpg",
+    "title": "Print / Merch",
+    "description": "Short product description.",
+    "price": "$00",
+    "url": "#"
+  }
+]

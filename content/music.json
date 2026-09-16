@@ -1,0 +1,14 @@
+[
+  {
+    "type": "youtube",
+    "url": "https://www.youtube.com/embed/YOUR_VIDEO_ID",
+    "title": "Live Performance",
+    "details": "Song Title \u2022 Venue \u2022 Year"
+  },
+  {
+    "type": "youtube",
+    "url": "https://www.youtube.com/embed/YOUR_VIDEO_ID",
+    "title": "Acoustic Session",
+    "details": "Song Title \u2022 Year"
+  }
+]
