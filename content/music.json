@@ -1,19 +1,19 @@
 [
   {
     "type": "youtube",
-    "url": "https://www.youtube.com/playlist?list=OLAK5uy_lJLEK6bAG-aNd_CtaCRsU5pzKG8hjYeuc",
+    "url": "https://www.youtube.com/embed/playlist?list=OLAK5uy_lJLEK6bAG-aNd_CtaCRsU5pzKG8hjYeuc",
     "title": "Link to album Now & Then",
     "details": "Now & Then \u2022 Fairhope Studios \u2022 2025"
   },
   {
     "type": "youtube",
-    "url": "https://www.youtube.com/playlist?list=OLAK5uy_m1WgOpHXLM41XKHSbq4nCtw8UU6bfqmyA",
+    "url": "https://www.youtube.com/embed/playlist?list=OLAK5uy_m1WgOpHXLM41XKHSbq4nCtw8UU6bfqmyA",
     "title": "From Here to Now Full Album",
     "details": "From Here to Now \u2022 Fairhope Studios \u2022 2023"
   },
   {
     "type": "youtube",
-    "url": "https://www.youtube.com/watch?v=3MHzb02-ojs",
+    "url": "https://www.youtube.com/embed/watch?v=3MHzb02-ojs",
     "title": "Moonshine and Music Live Show and Interview",
     "details": "Interview and Live Performance \u2022 Moonshine and Music Podcast \u2022 2025"
   }
